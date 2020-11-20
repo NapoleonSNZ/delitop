@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Special Elite', cursive;
+}
+
+.dp_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    display: inline-flex;
+}
+
+.dp_navbar div, .dp_navbar ul{
+    background-color: transparent !important;
+}
+
+.dp_cont_sec_1 {
+    background-image: url("../img/seccion2.jpg");
+    width: 100vw;
+}
+.dp_cont_sec_1 h2{
+    font-size: 6vw;
+}
+
+.dp_cont_sec_1 .row{
+    background-color: rgba(10, 160, 102, 0.7);
+    color: whitesmoke;
+    padding: 0.5%;  
+}
+
+.dp_cont_sec_1 {
+    padding: 10%;
+    background-size: cover;
+    background-image: url("../img/seccion2.jpg");
+}
+
+
+.dp_cont_sec_1_link{
+    padding: 5%;
+}
+
+.dp_cont_sec_1_link a{
+    width: 200px;
+   
+}
+
+.dp_cont_sec_1 hr{
+   border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+
+
+.dp_cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 3%;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.dp_cont_footer p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vw;   
+}
+
+.chat{
+    display: flex;
+    width: 100px;
+    height: 1000px;
+}

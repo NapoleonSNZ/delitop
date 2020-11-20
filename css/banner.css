@@ -1,0 +1,113 @@
+.dp_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/front1.jpg");
+}
+
+.dp_sombra{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    /*para los navegadores*/
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: seashell;
+    margin: auto;
+}
+
+.dp_sombra hr{
+    border-top: 1px solid cornsilk;
+    
+}
+
+.dp_sombra h1{
+    font-family: "Fette Fraktur";
+    font-size: 12vw;   /*vw adapte a tamaño*/
+    margin-bottom: 10px;
+}
+
+.dp_sombra p{
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.dp_cont_banner_link{
+    margin: 15px;
+    position: relative;
+}
+
+.dp_cont_banner_link a{
+    position: relative;
+    display: inline-block;
+    color: rgb(146, 233, 146);
+    font-size: 3.3vw;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;   
+}
+
+.dp_cont_banner_link a:hover{
+    background-color: rgb(15, 49, 15);
+    color: ivory;
+}
+
+.dp_banner_link {
+    opacity: 0;
+    animation: dp_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: dp_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.dp_banner_link_1 {
+    opacity: 0;
+    animation: dp_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: dp_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.dp_banner_link_2 {
+    opacity: 0;
+    animation: dp_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: dp_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+
+.dp_cont_banner_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/vivo.jpeg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.dp_cont_banner_sec_3 .row{
+    background-color: rgba(10, 160, 102, 0.7);
+    color: whitesmoke;
+    padding: 0.5%;
+}
+
+.dp_cont_banner_sec_3 hr{
+    border-top: 1.5px solid cornsilk;
+}
+
+.dp_cont_img{
+    padding: 5%;
+}
